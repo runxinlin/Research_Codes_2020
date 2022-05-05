@@ -2,7 +2,7 @@
 ---
 title: "The effect of monetary policy on long-run stock price reversals in the Johannesburg 
   Stock Exchange"
-author: "Runxin Lin (2392284) and Rollins Ayaya (1105172)"
+author: "Runxin Lin (2392284)"
 date: "2020/10/16"
 output: html_document
 ---
