@@ -7,19 +7,20 @@ require(tidyr)
 require(ggplot2)
 require(stringr)
 require(reshape)
-df.Price <- read_excel("D:\\桌面\\Research Report\\Data\\Data Excel\\Price.xlsx")
+df.Price <- read_excel("Price.xlsx")
 ##df.RF is the risk-free rate
-df.RF <- read_excel("D:\\桌面\\Research Report\\Data\\Data Excel\\91days T-Bill rate.xlsx", 
+df.RF <- read_excel("91days T-Bill rate.xlsx", 
                     col_types = c("text", "numeric", "skip", 
                                   "skip", "skip", "skip", "skip", "skip"))
-df.Size <- read_excel("D:\\桌面\\Research Report\\Data\\Data Excel\\Mar Cap.xlsx")
-df.PE <- read_excel("D:\\桌面\\Research Report\\Data\\Data Excel\\PE.xlsx")
+df.Size <- read_excel("Mar Cap.xlsx")
+df.PE <- read_excel("PE.xlsx")
 ##df.MR is the dataframe of market return
-df.MR <- read_excel("D:\\桌面\\Research Report\\Data\\Data Excel\\Indices.xlsx", 
+df.MR <- read_excel("Indices.xlsx", 
                     col_types = c("date", "numeric", "skip", 
                                   "skip", "skip", "skip", "skip"))
-df.DR <- read_excel("D:/桌面/Research Report/Data/Data Excel/Repo rate( SA discount rate).xls", 
+df.DR <- read_excel("Repo rate( SA discount rate).xls", 
                     col_types = c("text", "numeric"))
+
 ###change daily date to monthly interval
 require(xts)
 ##Calculate the continuously compounded return
