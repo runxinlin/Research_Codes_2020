@@ -2,6 +2,7 @@
 The effect of monetary policy on long-run stock price reversals on the JSE
 
 Abstract
+
 Purpose:The  study  expands  on  the  phenomenon  of  long-run  reversal  in  the  financial  markets  using Johannesburg StockExchange  (JSE)  data. This  study  aimedto  determine  whether  the  monetary  policy changes implemented by the South African Reserve Bank influence long-run reversals in the JSE.
 
 Context:Long-run reversals have occurred in various global financial markets in the US,Europe,Asia,and South Africa. Long-run reversals occur when firms with poor past performance rebound and produce  superior  returns to firms with good historical past performance. South  Africa  has  a  monetary policy  of  inflation  targeting. It tends to increase  interest  rates  whenever  the change in the consumer price index falls above the upper limit of the range of 3–6%.
